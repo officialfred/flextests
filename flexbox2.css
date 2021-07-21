@@ -1,0 +1,46 @@
+
+
+.cabeca {
+
+	display: flex;
+	padding: 60px;
+  	background: #57068C;
+  	color: white;
+  	overflow-x: hidden;
+  	margin: 0 0vw;
+  	font-size: 30px;
+  	justify-content: center;
+
+}
+body {
+  margin:0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #cdf6eb;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.container .box {
+  display: flex;
+  flex-direction: column;
+  background: #028082;
+  width: 200px;  
+  height: 50px;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  }
