@@ -25,12 +25,15 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 0px;
-    align-items: center;
-    justify-content: center;
+    padding: 20px;
+    align-items: flex-start;
+    justify-content: space-around;
 
     
 }
-
+.container div {
+  font-family: sans-serif;
+}
 .container .box {
   display: flex;
   flex-direction: column;
@@ -42,5 +45,12 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
 
   }
+
+  .container .pubtype {
+    text-transform: uppercase;
+  }
+
+
